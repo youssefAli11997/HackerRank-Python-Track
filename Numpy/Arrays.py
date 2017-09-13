@@ -1,8 +1,10 @@
 import numpy
 
 def arrays(arr):
-    arr.reverse()
-    return (numpy.array(arr,float))
+    return (numpy.array(arr,float))[::-1]
+    # another solution :
+    #arr.reverse()
+    #return (numpy.array(arr,float))
 
 
 arr = input().strip().split(' ')
